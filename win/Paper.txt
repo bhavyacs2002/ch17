@@ -1,0 +1,22 @@
+class Paper
+{
+	String company;
+	String type="wireless";
+	String color;
+	double weight;
+	public void setCompany(String company)
+	{
+		this.company=company;
+	}
+	public Paper(String color)
+	{
+		this.color=color;
+	}
+	public void display()
+	{
+		System.out.println("company :"+this.company);
+		System.out.println("type :"+this.type);
+		System.out.println("color :"+this.color);
+		System.out.println("weight :"+this.weight);
+	}
+	}
